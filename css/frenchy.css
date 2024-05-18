@@ -6,10 +6,10 @@ body {
 
 body {
     font-family:  
-      Merriweather,
-      'Helvetica Neue',
-      Arial,sans-serif;
-        background-color: grey; 
+    Merriweather,
+    'Helvetica Neue',
+    Arial,sans-serif;
+    background-color: #ddd2ce; 
 }
 
 /*  impression texte en 3d */
@@ -31,12 +31,8 @@ body {
   align-content: space-between;
 }
 
-/* en haut a gauche de la navbar*/
-.nomsite{
-    font-family: "Foldit", sans-serif;
-    font-weight: 400;
-}
 
+/* bloc en tete, avec navbar incluse  */
 .entete {
     padding : 100px;
     display : flex;
@@ -44,15 +40,28 @@ body {
     width: 100%;
     height: 500px;
     margin-top: 0;
-    background: yellow;
+    background-color: #ced9dd;
     padding: 100px 0;
 }
 
-.contenu {
+
+/*  bloc central du site, a disposer pour les differents onglets */
+.central {
     display : flex;
     width: 100%;
     height: 500px;
     margin-top: 0;
-    background: blue;
+    background-color: blue;
+    padding: 100px 0;
+}
+
+/* bloc pied de page, ou on va disposer la partie contact ect  */
+
+.central {
+    display : flex;
+    width: 100%;
+    height: 500px;
+    margin-top: 0;
+    background-color: #90979a;
     padding: 100px 0;
 }
