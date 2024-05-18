@@ -23,7 +23,7 @@ body {
 }
 
 
-entete {
+.entete {
     position: fixed;
     top: 0;
     width: 500px;
@@ -33,7 +33,7 @@ entete {
     padding: 10px;  
 }
 
-contenu {
+.contenu {
     position: fixed;
     width: 500px;
     height: 500px;
