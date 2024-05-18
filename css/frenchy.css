@@ -12,6 +12,17 @@ body {
         background-color: grey; 
 }
 
+/* font perso */
+
+/*  impression texte en 3d */
+
+.foldit-<uniquifier> {
+  font-family: "Foldit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 
 /* BOX servant a mettre les blocs entete, contenu et pied de page */
 
@@ -22,7 +33,10 @@ body {
   align-content: space-between;
 }
 
-
+.nomsite{
+    font-family: "Foldit", sans-serif;
+    font-weight: 400;
+}
 .entete {
     padding : 100px;
     display : flex;
