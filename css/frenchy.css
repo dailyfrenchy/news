@@ -12,6 +12,17 @@ body {
         background-color: grey; 
 }
 
+
+/* BOX servant a mettre les blocs entete, contenu et pied de page */
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: space-between;
+}
+
+
 entete {
     position: fixed;
     top: 0;
@@ -21,9 +32,8 @@ entete {
     background: yellow;
     padding: 10px;  
 }
-}
 
-section.contenu {
+contenu {
     position: fixed;
     width: 500px;
     height: 500px;
