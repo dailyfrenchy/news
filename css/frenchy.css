@@ -12,8 +12,6 @@ body {
         background-color: grey; 
 }
 
-/* font perso */
-
 /*  impression texte en 3d */
 
 .foldit-<uniquifier> {
@@ -33,10 +31,12 @@ body {
   align-content: space-between;
 }
 
+/* en haut a gauche de la navbar*/
 .nomsite{
     font-family: "Foldit", sans-serif;
     font-weight: 400;
 }
+
 .entete {
     padding : 100px;
     display : flex;
