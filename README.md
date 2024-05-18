@@ -1,1 +1,3 @@
 # news
+
+Petite site d'actu, reportage photo ...
