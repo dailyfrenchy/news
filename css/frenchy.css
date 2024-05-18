@@ -15,6 +15,7 @@ entete {
     position: fixed;
     top: 0;
     width: 500px;
+    height: 500px;
     margin-top: 0;
     background: yellow;
     padding: 10px;  
@@ -24,7 +25,8 @@ entete {
 section.contenu {
     position: fixed;
     width: 500px;
+    height: 500px;
     margin-top: 0;
-    background: yellow;
+    background: blue;
     padding: 10px;  
 }
