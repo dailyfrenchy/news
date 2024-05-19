@@ -1,8 +1,8 @@
 ####################### banner #######################################
 banner:
   enable: true
-  title: "Salut, moi c'est Quentin. <br> Je m'amuse pour raconter mes differents periples"
-  image: "/assets/images/author/matete.jpg"
+  title: "Salut, moi c'est Quentin. <br> Je m'amuse à constuire ce site, pour ensuite raconter mes differents periples"
+  # image: "/assets/images/author/matete.jpg"
   bg_image: "/assets/images/banner/banner-bg.jpg"
 
 ######################## call to action ###############################
