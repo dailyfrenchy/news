@@ -49,29 +49,12 @@ p {
     line-height: 1.5;
 }
 
-/*  impression texte en 3d */
-
-.foldit-<uniquifier> {
-  font-family: "Foldit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 
 /* BOX servant a mettre les blocs entete, contenu et pied de page */
 
 .box {
     width: 100%;
     height: 100%;
-}
-
-logo1 {
-    max-width: 100% ;
-    display: inline;
-	float: left;
-	position: absolute;
-	overflow-x: hidden;
 }
 
 /* bloc en tete, avec navbar incluse  */
@@ -85,7 +68,7 @@ logo1 {
 /*  bloc central du site, a disposer pour les differents onglets */
 .central {
     margin-top: 0;
-    background-image: url("/img/default/logo1.jpg");
+    background-image: url("img/default/logo1.jpg");
 	background-size: cover;
     height: 500px;
 }
