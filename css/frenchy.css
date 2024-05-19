@@ -76,10 +76,9 @@ logo1 {
 
 /* bloc en tete, avec navbar incluse  */
 .entete {
-    min-height: auto;
     background-color: #ced9dd;
-    padding: 100px 0;
     text-align : center;
+	height: 500px;
 }
 
 
@@ -87,15 +86,14 @@ logo1 {
 .central {
     margin-top: 0;
     background-image: url("/img/default/logo1.jpg");
-background-size: auto 100%;
-    padding: 100px 0;
+	background-size: auto 100%;
+    height: 500px;
 }
 
 /* bloc pied de page, ou on va disposer la partie contact ect  */
 
 .baspage {
-    min-height: auto;
     margin-top: 0;
     background-color: #90979a;
-    padding: 100px 0;
+    height: 500px;
 }
