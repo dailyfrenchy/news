@@ -67,7 +67,11 @@ p {
 }
 
 logo1 {
-    max-width: 100% 
+    max-width: 100% ;
+    display: inline;
+	float: left;
+	position: absolute;
+	overflow-x: hidden;
 }
 
 /* bloc en tete, avec navbar incluse  */
