@@ -66,6 +66,9 @@ p {
     height: 100%;
 }
 
+logo1 {
+    max-width: 100% 
+}
 
 /* bloc en tete, avec navbar incluse  */
 .entete {
