@@ -72,16 +72,14 @@ p {
 /* bloc en tete, avec navbar incluse  */
 .entete {
     display : flex;
-    position : absolute;
+    position : fixed;
     order: 1;
     min-height: auto;
-    width: 100%;
-    height: 200px;
     background-color: #ced9dd;
     padding: 100px 0;
     text-align : center;
 
-        width: 90%;
+    width: 90%;
     max-width: 1000px;
     min-width: 700px;
 
@@ -93,7 +91,7 @@ p {
 /*  bloc central du site, a disposer pour les differents onglets */
 .central {
     display : flex;
-    position : absolute;
+    position : fixed;
     order: 2;
     margin-top: 0;
     background-color: #9a9390;
@@ -111,7 +109,7 @@ p {
 
 .baspage {
     display : flex;
-    position: absolute;
+    position: fixed;
     order: 3;
     margin-top: 0;
     background-color: #90979a;
