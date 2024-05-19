@@ -62,7 +62,6 @@ p {
 /* BOX servant a mettre les blocs entete, contenu et pied de page */
 
 .box {
-    position : fixed;
     width: 100%;
     height: 100%;
 }
