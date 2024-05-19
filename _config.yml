@@ -1,7 +1,7 @@
-baseurl: "/northendlab-jekyll" # the subpath of your site, e.g. blog/
-url: "https://demo.themefisher.com" # the base hostname & protocol for your site, e.g. http://example.com/
+baseurl: "/newsl" # the subpath of your site, e.g. blog/
+url: "https://dailyfrenchy.github.io/news/" # the base hostname & protocol for your site, e.g. http://example.com/
 
-title: Northendlab Jekyll | Personal Blog Template
+title: Daily Frenchy's | L'art d'etre Francais a l'etranger
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
