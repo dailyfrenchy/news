@@ -87,10 +87,9 @@ logo1 {
 
 /*  bloc central du site, a disposer pour les differents onglets */
 .central {
-    min-height: auto;
     margin-top: 0;
     background-image: url("/img/default/daily-frenchys-logo1-1000x1300.jpg");
-	background-size: contain;
+background-size: cover;
 	background-repeat: no-repeat;
     padding: 100px 0;
     width: 100%;
