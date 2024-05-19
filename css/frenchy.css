@@ -62,7 +62,7 @@ p {
 /* BOX servant a mettre les blocs entete, contenu et pied de page */
 
 .box {
-    display: flex;
+    position : fixed;
     width: 100%;
     height: 100%;
 }
@@ -70,51 +70,32 @@ p {
 
 /* bloc en tete, avec navbar incluse  */
 .entete {
-    display : flex;
-    position : fixed;
     min-height: auto;
     background-color: #ced9dd;
     padding: 100px 0;
     text-align : center;
-
-    width: 90%;
-    max-width: 1000px;
-    min-width: 700px;
-
-    max-height: 400px;
-    min-height: 400px;
+    width: 100%;
+    height: 400px;
 }
 
 
 /*  bloc central du site, a disposer pour les differents onglets */
 .central {
-    display : flex;
-    position : fixed;
+    min-height: auto;
     margin-top: 0;
     background-color: #9a9390;
     padding: 100px 0;
-
-    width: 90%;
-    max-width: 1000px;
-    min-width: 700px;
-
-    max-height: 400px;
-    min-height: 400px;
+    width: 100%;
+    height: 700px;
 }
 
 /* bloc pied de page, ou on va disposer la partie contact ect  */
 
 .baspage {
-    display : flex;
-    position: fixed;
+    min-height: auto;
     margin-top: 0;
     background-color: #90979a;
     padding: 100px 0;
-
-            width: 90%;
-    max-width: 1000px;
-    min-width: 700px;
-
-    max-height: 400px;
-    min-height: 400px;
+    width: 100%;
+    height: 400px;
 }
