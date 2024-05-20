@@ -25,9 +25,9 @@ layout : default
         </div>
 
         <!--         la photo central -->
-        <div class="central mb-5 d-flex justify-content-center">
+        <div class="central mb-5 d-flex justify-content-center ">
         {% if page.image %}
-        <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }}">
+        <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-4 clickable-image" alt="{{ page.title }}">
         {% endif %}
         </div>
         
