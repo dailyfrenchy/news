@@ -34,7 +34,16 @@ layout : default
         <!--         le contenu ecrit present dans _posts -->
         <div class="content mb-5 d-flex justify-content-center">
           {{ page.content }}
-        </div>     
+        </div>
+
+        <!--     test 2eme photo  -->
+        <div class="bas mb-5 d-flex justify-content-center">
+        {% if page.image2 %}
+        <img src="{{ page.image2 | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }}">
+        {% endif %}
+        </div>
+
+        
       </div>
       
     </div>
