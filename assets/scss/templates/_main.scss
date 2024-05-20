@@ -6,7 +6,7 @@
 /* image blog ( aussi present dans js )   nom variable : clickable-image open et close */
 
 .clickable-image-open{
-  width:50vw;
+  width:50%;
 }
 
 .image-open{
@@ -18,14 +18,14 @@
 }
 @keyframes scaleUp{
   from{
-    width:50vw;
+    width:50%;
   }to{
-    width:100vw;
+    width:400px;
   }
 }
 
 .clickable-image-close{
-  width:50vw;
+  width:400px;
 }
 
 .image-close{
@@ -34,9 +34,9 @@
 
 @keyframes scaleDown{
   from{
-    width:100vw;
+    width:400px;
   }to{
-    width:50vw;
+    width:50%;
   }  
 }
 
