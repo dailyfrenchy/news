@@ -5,40 +5,40 @@
 
 /* image blog ( aussi present dans js )   nom variable : clickable-image open et close */
 
-.clickable-image-open{
-  width:50%;
-}
+// .clickable-image-open{
+//   width:50%;
+// }
 
-.image-open{
-  animation: scaleUp 2s forwards linear;
-}
+// .image-open{
+//   animation: scaleUp 2s forwards linear;
+// }
 
-.clickable-image-open:hover{
-  cursor: pointer;
-}
-@keyframes scaleUp{
-  from{
-    width:50%;
-  }to{
-    width:400px;
-  }
-}
+// .clickable-image-open:hover{
+//   cursor: pointer;
+// }
+// @keyframes scaleUp{
+//   from{
+//     width:50%;
+//   }to{
+//     width:400px;
+//   }
+// }
 
-.clickable-image-close{
-  width:400px;
-}
+// .clickable-image-close{
+//   width:400px;
+// }
 
-.image-close{
-  animation: scaleDown 2s forwards linear;
-}
+// .image-close{
+//   animation: scaleDown 2s forwards linear;
+// }
 
-@keyframes scaleDown{
-  from{
-    width:400px;
-  }to{
-    width:50%;
-  }  
-}
+// @keyframes scaleDown{
+//   from{
+//     width:400px;
+//   }to{
+//     width:50%;
+//   }  
+// }
 
 
 /* banner */
