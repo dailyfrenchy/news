@@ -24,6 +24,18 @@
   }
 }
 
+.image-close{
+  animation: scaleDown 2s forwards linear;
+}
+
+@keyframes scaleDown{
+  from{
+    width:100vw;
+  }to{
+    width:50vw;
+  }  
+}
+
 
 /* banner */
 .banner {
