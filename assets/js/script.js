@@ -34,10 +34,10 @@
     })
   
   // image blog nom : clickable-image-close
-    const image = document.querySelector(".clickable-image-close");
+    const image2 = document.querySelector(".clickable-image-close");
 
-    image.addEventListener("click", () =>{
-    image.classList.add("image-close");
+    image2.addEventListener("click", () =>{
+    image2.classList.add("image-close");
     })
   
 
