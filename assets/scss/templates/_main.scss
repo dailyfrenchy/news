@@ -5,7 +5,7 @@
 
 /* image blog ( aussi present dans js )   nom variable : clickable-image open et close */
 
-.clickable-image{
+.clickable-image-open{
   width:50vw;
 }
 
@@ -13,7 +13,7 @@
   animation: scaleUp 2s forwards linear;
 }
 
-.clickable-image:hover{
+.clickable-image-open:hover{
   cursor: pointer;
 }
 @keyframes scaleUp{
@@ -22,6 +22,10 @@
   }to{
     width:100vw;
   }
+}
+
+.clickable-image-close{
+  width:50vw;
 }
 
 .image-close{
