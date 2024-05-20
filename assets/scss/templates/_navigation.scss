@@ -1,6 +1,6 @@
 .navigation {
   transition: .3s ease;
-  background : white;
+  background :#708090;
   opacity: 0.7;
   &.fixed-top{
     @include desktop {
