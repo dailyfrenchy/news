@@ -13,7 +13,7 @@ layout : default
         <h2 class="d-flex justify-content-center">{{ page.title }}</h2>
         
         <!--     partie    auteur / date / tag  -->
-        <div class="mb-3 post-meta">
+        <div class="mb-3 post-meta d-flex justify-content-center">
           {% if page.author %}
           <a href="{{ 'author/' | relative_url }}{{ page.author | slugify }}">{{ page.author | capitalize }}</a>{%endif%},
           {{ page.date | date: '%b %d, %Y' }},
