@@ -38,7 +38,7 @@
 
   //   image2.addEventListener("click", () =>{
   //   image2.classList.add("image-close");
-    })
+  //  })
   
 
 })(jQuery);
