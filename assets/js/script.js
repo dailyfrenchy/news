@@ -15,29 +15,29 @@
     }
   });
 
-  //  Search Form Open
-  $('#searchOpen').on('click', function () {
-    $('.search-wrapper').addClass('open');
-    setTimeout(function () {
-      $('.search-box').focus();
-    }, 400);
-  });
-  $('#searchClose').on('click', function () {
-    $('.search-wrapper').removeClass('open');
-  });
+  // //  Search Form Open
+  // $('#searchOpen').on('click', function () {
+  //   $('.search-wrapper').addClass('open');
+  //   setTimeout(function () {
+  //     $('.search-box').focus();
+  //   }, 400);
+  // });
+  // $('#searchClose').on('click', function () {
+  //   $('.search-wrapper').removeClass('open');
+  // });
 
-  // image blog nom : clickable-image-open
-    const image = document.querySelector(".clickable-image-open");
+  // // image blog nom : clickable-image-open
+  //   const image = document.querySelector(".clickable-image-open");
 
-    image.addEventListener("click", () =>{
-    image.classList.add("image-open");
-    })
+  //   image.addEventListener("click", () =>{
+  //   image.classList.add("image-open");
+  //   })
   
-  // image blog nom : clickable-image-close
-    const image2 = document.querySelector(".clickable-image-close");
+  // // image blog nom : clickable-image-close
+  //   const image2 = document.querySelector(".clickable-image-close");
 
-    image2.addEventListener("click", () =>{
-    image2.classList.add("image-close");
+  //   image2.addEventListener("click", () =>{
+  //   image2.classList.add("image-close");
     })
   
 
