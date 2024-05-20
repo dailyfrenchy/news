@@ -26,4 +26,13 @@
     $('.search-wrapper').removeClass('open');
   });
 
+  // image blog
+    const image = document.querySelector(".clickable-image");
+
+    image.addEventListener("click", () =>{
+    image.classList.add("image-open");
+    })
+
+  
+
 })(jQuery);
