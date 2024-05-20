@@ -4,7 +4,7 @@ menu:
   main:
     - { name: Maison, url: "/" }
     - { name: Contact, url: "contact.html" }
-    - { name: A virer, url: "tools.html" }
+    - { name: futur categories, url: "tools.html" }
 
   ##### Dropdown menu ######
 
@@ -28,8 +28,8 @@ menu:
 # logo
 logo: "/assets/images/logo.svg"
 # meta data
-author: "Themefisher"
-description: "This is meta description"
+author: "Quentin Tison"
+description: "Ceci est ma description"
 # google analitycs ID
 google_analitycs_id: "" # your id
 # contact form action
