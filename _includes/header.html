@@ -17,6 +17,7 @@
                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 {{main.name}}
               </a>
+              
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 {% for children in main.submenu %}
                 <a class="dropdown-item" href="{{children.url}}">{{children.name}}</a>
@@ -31,20 +32,24 @@
             {% endif %}
           {% endfor %}
         </ul>
-        {% if site.data.parameters.search.enable %}
+
+         
+<!--         {% if site.data.parameters.search.enable %} -->
         <!-- search -->
-        <div class="search">
-          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
-          <div class="search-wrapper">
-            <form action="{{ 'search.html' | relative_url }}" class="h-100">
-              <input class="search-box px-4" id="search-box" name="query" type="search" placeholder="Type & Hit Enter...">
-            </form>
-            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
-          </div>
-        </div>
-        {% endif %}
-      </div>
+<!--         <div class="search"> -->
+<!--           <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button> -->
+<!--           <div class="search-wrapper"> -->
+<!--             <form action="{{ 'search.html' | relative_url }}" class="h-100"> -->
+<!--               <input class="search-box px-4" id="search-box" name="query" type="search" placeholder="Type & Hit Enter..."> -->
+<!--             </form> -->
+<!--             <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--         {% endif %} -->
+<!--       </div> -->
+      
     </nav>
+    
   </div>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
