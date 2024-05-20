@@ -26,13 +26,19 @@
     $('.search-wrapper').removeClass('open');
   });
 
-  // image blog nom : clickable-image
+  // image blog nom : clickable-image open
     const image = document.querySelector(".clickable-image");
 
     image.addEventListener("click", () =>{
     image.classList.add("image-open");
     })
+  
+  // image blog nom : clickable-image close
+    const image = document.querySelector(".clickable-image");
 
+    image.addEventListener("click", () =>{
+    image.classList.add("image-close");
+    })
   
 
 })(jQuery);
