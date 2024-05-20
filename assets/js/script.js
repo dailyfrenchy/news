@@ -26,7 +26,7 @@
     $('.search-wrapper').removeClass('open');
   });
 
-  // image blog
+  // image blog nom : clickable-image
     const image = document.querySelector(".clickable-image");
 
     image.addEventListener("click", () =>{
