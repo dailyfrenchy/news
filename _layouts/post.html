@@ -4,9 +4,15 @@ layout : default
 
 <section class="section">
   <div class="container">
+    
+<!--     debut du bloc article -->
+    
     <div class="row">
       <div class="col-lg-8 mx-auto block shadow mb-5">
+        
         <h2>{{ page.title }}</h2>
+        
+        <!--     partie    auteur / date / tag  -->
         <div class="mb-3 post-meta">
           {% if page.author %}
           <a href="{{ 'author/' | relative_url }}{{ page.author | slugify }}">{{ page.author | capitalize }}</a>{%endif%},
@@ -17,18 +23,30 @@ layout : default
           {% endfor %}
           {% endif %}
         </div>
+
+        <!--         la photo central -->
         {% if page.image %}
         <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }}">
         {% endif %}
+
+        <!--         le contenu ecrit present dans _posts -->
         <div class="content mb-5">
           {{ page.content }}
         </div>
-        <!-- comments -->
-        {% if site.disqus_shortname %}
+
+        
+<!--         comments , est ce utile ?? -->
+        
+<!--         {% if site.disqus_shortname %}
           {% include disqus-comments.html %}
-        {% endif %}
+        {% endif %} -->
+        
         <!-- /comments -->
+        
       </div>
+      
     </div>
+    
   </div>
+  
 </section>
