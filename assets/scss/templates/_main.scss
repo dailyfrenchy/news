@@ -3,6 +3,28 @@
   background-image: url(../images/backgrounds/pattern.png);
 } */
 
+/* image blog ( aussi present dans js )*/
+
+.clickable-image{
+  width:50vw;
+}
+
+.image-open{
+  animation: scaleUp 2s forwards linear;
+}
+
+.clickable-image:hover{
+  cursor: pointer;
+}
+@keyframes scaleUp{
+  from{
+    width:50vw;
+  }to{
+    width:100vw;
+  }
+}
+
+
 /* banner */
 .banner {
   padding: 220px 0 120px;
