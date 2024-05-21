@@ -26,16 +26,16 @@ layout : default
 
         <!--         la photo central (ouvrable ) -->
         <div class="central mb-5 ">
-        {% if page.image %}
+        {% if page.image2 %}
           <div class="imageBlock"> 
             <a class="showImage">
-              <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }} ">
+              <img src="{{ page.image2 | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }} ">
                 <div id="mask">
                   <div id="boxes">
                     <div class="inner">
                       <div id="dialog" class="window"> <a href="#" class="close">Fermer la photo</a>
                           <div id="popupfoot">
-                            <img src="{{ page.image | relative_url }}" class="image" alt="Loading...">
+                            <img src="{{ page.image2 | relative_url }}" class="image" alt="Loading...">
                             </img> 
                           </div>
                       </div>
