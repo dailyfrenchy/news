@@ -1,6 +1,6 @@
 ---
 title : "ca va le faire"
-image : "/assets/images/post/post-1.jpg"
+image : "/assets/images/post/post-2.jpg"
 image2 : "/assets/images/post/post-3.jpg"
 author : "Quentin Tison"
 date: 2024-05-20 11:12:58 +0600
