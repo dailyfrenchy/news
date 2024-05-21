@@ -42,7 +42,7 @@ layout : default
                   </div>
                 </div>
               </div>
-              
+                                      {% endif %}
 
           </div>
         
@@ -52,16 +52,16 @@ layout : default
         </div>
 
         <!--     test 2eme photo  -->
-                <div class="bas mb-5 ">
+        <div class="bas mb-5 ">
         {% if page.image2 %}
           <div class="imageBlock2"> 
             <a class="showImage2">
               <img src="{{ page.image2 | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }} ">
-                <div id="mask">
-                  <div id="boxes">
-                    <div class="inner">
-                      <div id="dialog" class="window"> <a href="#" class="close">Fermer la photo</a>
-                          <div id="popupfoot">
+                <div id="mask2">
+                  <div id="boxes2">
+                    <div class="inner2">
+                      <div id="dialog2" class="window2"> <a href="#" class="close2">Fermer la photo</a>
+                          <div id="popupfoot2">
                             <img src="{{ page.image2 | relative_url }}" class="image2" alt="Loading...">
                             </img> 
                           </div>
@@ -69,7 +69,7 @@ layout : default
                   </div>
                 </div>
               </div>
-                        {% endif %}
+
           {% endif %}
           </div>
 
