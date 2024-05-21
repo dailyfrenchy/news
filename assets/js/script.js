@@ -22,24 +22,24 @@
         var id = '#dialog';
         if (fullPath == "image") {
             var fullImagePath =
-                fullPath ;
+                fullPath;
         }
-        // if (fullPath == "image2") {
-        //     var fullImagePath =
-        //         "/assets/images/post/post-2.jpg"";
-        // }
-        // if (fullPath == "image3") {
-        //     var fullImagePath =
-        //         "http://www.walldevil.com/wallpapers/a49/wallpapers-nature-wallpaper-peony-white-online-canada-corner-pink.jpg";
-        // }
-        // if (fullPath == "image4") {
-        //     var fullImagePath =
-        //         "http://wallpapercave.com/wp/Jp7kTmf.jpg";
-        // }
-        // if (fullPath == "image5") {
-        //     var fullImagePath =
-        //         "http://www.hdbloggers.net/wp-content/uploads/2016/06/Nature.jpg";
-        // }
+        if (fullPath == "image2") {
+            var fullImagePath =
+                fullPath;
+        }
+        if (fullPath == "image3") {
+            var fullImagePath =
+                fullPath;
+        }
+        if (fullPath == "image4") {
+            var fullImagePath =
+                fullPath;
+        }
+        if (fullPath == "image5") {
+            var fullImagePath =
+                fullPath;
+        }
 
 
         $('.image').attr({
@@ -61,8 +61,6 @@
         $('#mask').addClass('showing');
 
     });
-
-});
   
 
-)(jQuery);
+)}(jQuery);
