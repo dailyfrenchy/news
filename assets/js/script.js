@@ -19,27 +19,27 @@
   $(document).ready(function() {
 
     function showImage(fullPath) {
-        var id = '#dialog';
-        if (fullPath == "image1") {
-            var fullImagePath =
-                "https://shareonline.in/wp-content/uploads/2016/06/nature-wallpaper-gallery-path-of-nature-wallpaper-ouRejx.jpg";
-        }
-        if (fullPath == "image2") {
-            var fullImagePath =
-                "http://wallpapercave.com/wp/l5FBhgU.jpg";
-        }
-        if (fullPath == "image3") {
-            var fullImagePath =
-                "http://www.walldevil.com/wallpapers/a49/wallpapers-nature-wallpaper-peony-white-online-canada-corner-pink.jpg";
-        }
-        if (fullPath == "image4") {
-            var fullImagePath =
-                "http://wallpapercave.com/wp/Jp7kTmf.jpg";
-        }
-        if (fullPath == "image5") {
-            var fullImagePath =
-                "http://www.hdbloggers.net/wp-content/uploads/2016/06/Nature.jpg";
-        }
+        // var id = '#dialog';
+        // if (fullPath == "image1") {
+        //     var fullImagePath =
+        //         "https://shareonline.in/wp-content/uploads/2016/06/nature-wallpaper-gallery-path-of-nature-wallpaper-ouRejx.jpg";
+        // }
+        // if (fullPath == "image2") {
+        //     var fullImagePath =
+        //         "http://wallpapercave.com/wp/l5FBhgU.jpg";
+        // }
+        // if (fullPath == "image3") {
+        //     var fullImagePath =
+        //         "http://www.walldevil.com/wallpapers/a49/wallpapers-nature-wallpaper-peony-white-online-canada-corner-pink.jpg";
+        // }
+        // if (fullPath == "image4") {
+        //     var fullImagePath =
+        //         "http://wallpapercave.com/wp/Jp7kTmf.jpg";
+        // }
+        // if (fullPath == "image5") {
+        //     var fullImagePath =
+        //         "http://www.hdbloggers.net/wp-content/uploads/2016/06/Nature.jpg";
+        // }
 
 
         $('.image').attr({
