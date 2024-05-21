@@ -24,7 +24,7 @@
   // image partie blog  img 1 ( ouverture popup)
   $(document).ready(function() {
 
-    function showImage(fullPath , fullPath2) {
+    function showImage(fullPath) {
         var id = '#dialog';
         if (fullPath == "image") {
             var fullImagePath =
