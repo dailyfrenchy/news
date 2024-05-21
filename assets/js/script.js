@@ -66,8 +66,8 @@
             $('#mask').removeClass('showing');
         });
     };
-    $(".showImage").on("click", function() {
-        showImage($(this).text());
+    $(".showImage2").on("click", function() {
+        showImage2($(this).text());
         $('#mask').addClass('showing');
     });
   });
