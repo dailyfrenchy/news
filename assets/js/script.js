@@ -15,18 +15,24 @@
     }
   });
 
+
+
+
+
+
+  
   // image partie blog ( ouverture popup)
   $(document).ready(function() {
 
-    function showImage(fullPath) {
+    function showImage(fullPath , fullPath2) {
         var id = '#dialog';
         if (fullPath == "image") {
             var fullImagePath =
                 fullPath;
         }
-        if (fullPath == "image2") {
+        if (fullPath2 == "image2") {
             var fullImagePath =
-                fullPath;
+                fullPath2;
         }
         if (fullPath == "image3") {
             var fullImagePath =
