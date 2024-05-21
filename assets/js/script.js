@@ -54,7 +54,7 @@
             $('#mask').removeClass('showing');
         });
 
-    };
+    });
 
     $(".showImage").on("click", function() {
         showImage($(this).text());
