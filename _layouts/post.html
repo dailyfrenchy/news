@@ -29,13 +29,13 @@ layout : default
         {% if page.image %}
           <div class="imageBlock"> 
             <a class="showImage">
-              <img src="{{ page.image | relative_url }}" alt="{{ page.title }} width="200" height="200" ">
+              <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }} ">
             <div id="mask">
               <div id="boxes">
                 <div class="inner">
                   <div id="dialog" class="window"> <a href="#" class="close">Fermer la photo</a>
                     <div id="popupfoot">
-                      <img src="#" class="image" alt="Loading..."></img> 
+                      <img src="{{ page.image | relative_url }}" class="image" alt="Loading..."></img> 
                     </div>
                   </div>
                 </div>
