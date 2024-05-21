@@ -15,30 +15,54 @@
     }
   });
 
-  // //  Search Form Open
-  // $('#searchOpen').on('click', function () {
-  //   $('.search-wrapper').addClass('open');
-  //   setTimeout(function () {
-  //     $('.search-box').focus();
-  //   }, 400);
-  // });
-  // $('#searchClose').on('click', function () {
-  //   $('.search-wrapper').removeClass('open');
-  // });
+  // image partie blog ( ouverture popup)
+  $(document).ready(function() {
 
-  // // image blog nom : clickable-image-open
-  //   const image = document.querySelector(".clickable-image-open");
+    function showImage(fullPath) {
+        var id = '#dialog';
+        if (fullPath == "image1") {
+            var fullImagePath =
+                "https://shareonline.in/wp-content/uploads/2016/06/nature-wallpaper-gallery-path-of-nature-wallpaper-ouRejx.jpg";
+        }
+        if (fullPath == "image2") {
+            var fullImagePath =
+                "http://wallpapercave.com/wp/l5FBhgU.jpg";
+        }
+        if (fullPath == "image3") {
+            var fullImagePath =
+                "http://www.walldevil.com/wallpapers/a49/wallpapers-nature-wallpaper-peony-white-online-canada-corner-pink.jpg";
+        }
+        if (fullPath == "image4") {
+            var fullImagePath =
+                "http://wallpapercave.com/wp/Jp7kTmf.jpg";
+        }
+        if (fullPath == "image5") {
+            var fullImagePath =
+                "http://www.hdbloggers.net/wp-content/uploads/2016/06/Nature.jpg";
+        }
 
-  //   image.addEventListener("click", () =>{
-  //   image.classList.add("image-open");
-  //   })
-  
-  // // image blog nom : clickable-image-close
-  //   const image2 = document.querySelector(".clickable-image-close");
 
-  //   image2.addEventListener("click", () =>{
-  //   image2.classList.add("image-close");
-  //  })
+        $('.image').attr({
+            'src': fullImagePath
+        });
+
+        //if close button is clicked
+        $('.window .close').click(function(e) {
+            //Cancel the link behavior
+            e.preventDefault();
+
+            $('#mask').removeClass('showing');
+        });
+
+    };
+
+    $(".showImage").on("click", function() {
+        showImage($(this).text());
+        $('#mask').addClass('showing');
+
+    });
+
+});
   
 
 })(jQuery);
