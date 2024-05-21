@@ -24,10 +24,10 @@
             var fullImagePath =
                 "/assets/images/post/post-1.jpg";
         }
-        // if (fullPath == "image2") {
-        //     var fullImagePath =
-        //         "http://wallpapercave.com/wp/l5FBhgU.jpg";
-        // }
+        if (fullPath == "image2") {
+            var fullImagePath =
+                "/assets/images/post/post-2.jpg"";
+        }
         // if (fullPath == "image3") {
         //     var fullImagePath =
         //         "http://www.walldevil.com/wallpapers/a49/wallpapers-nature-wallpaper-peony-white-online-canada-corner-pink.jpg";
