@@ -50,14 +50,14 @@
  // image partie blog  img 2 ( ouverture popup)
   $(document).ready(function() {
 
-    function showImage2(fullPath) {
+    function showImage2(fullPath2) {
         var id = '#dialog';
-        if (fullPath == "image") {
-            var fullImagePath =
-                fullPath;
+        if (fullPath2 == "image2") {
+            var fullImagePath2 =
+                fullPath2;
         }
         $('.image').attr({
-            'src': fullImagePath
+            'src': fullImagePath2
         });
         //if close button is clicked
         $('.window .close').click(function(e) {
