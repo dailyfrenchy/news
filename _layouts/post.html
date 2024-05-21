@@ -30,19 +30,21 @@ layout : default
           <div class="imageBlock"> 
             <a class="showImage">
               <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }} ">
-            <div id="mask">
-              <div id="boxes">
-                <div class="inner">
-                  <div id="dialog" class="window"> <a href="#" class="close">Fermer la photo</a>
-                    <div id="popupfoot">
-                      <img src="{{ page.image | relative_url }}" class="image" alt="Loading..."></img> 
-                    </div>
+                <div id="mask">
+                  <div id="boxes">
+                    <div class="inner">
+                      <div id="dialog" class="window"> <a href="#" class="close">Fermer la photo</a>
+                          <div id="popupfoot">
+                            <img src="{{ page.image | relative_url }}" class="image" alt="Loading...">
+                            </img> 
+                          </div>
+                      </div>
                   </div>
                 </div>
               </div>
-            </div>
-        {% endif %}
-        </div>
+              
+          {% endif %}
+          </div>
         
         <!--         le contenu ecrit present dans _posts -->
         <div class="content mb-5 d-flex justify-content-center">
@@ -50,11 +52,26 @@ layout : default
         </div>
 
         <!--     test 2eme photo  -->
-        <div class="bas mb-5 d-flex justify-content-center">
+                <div class="central mb-5 ">
         {% if page.image2 %}
-        <img src="{{ page.image2 | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }}">
-        {% endif %}
-        </div>
+          <div class="imageBlock"> 
+            <a class="showImage">
+              <img src="{{ page.image2 | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }} ">
+                <div id="mask">
+                  <div id="boxes">
+                    <div class="inner">
+                      <div id="dialog" class="window"> <a href="#" class="close">Fermer la photo</a>
+                          <div id="popupfoot">
+                            <img src="{{ page.image2 | relative_url }}" class="image" alt="Loading...">
+                            </img> 
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              
+          {% endif %}
+          </div>
 
         
       </div>
