@@ -51,24 +51,24 @@
   $(document).ready(function() {
 
     function showImage2(fullPath2) {
-        var id = '#dialog';
+        var id = '#dialog2';
         if (fullPath2 == "image2") {
             var fullImagePath2 =
                 fullPath2;
         }
-        $('.image').attr({
+        $('.image2').attr({
             'src': fullImagePath2
         });
         //if close button is clicked
         $('.window .close').click(function(e) {
             //Cancel the link behavior
             e.preventDefault();
-            $('#mask').removeClass('showing');
+            $('#mask2').removeClass('showing');
         });
     };
     $(".showImage2").on("click", function() {
         showImage2($(this).text());
-        $('#mask').addClass('showing');
+        $('#mask2').addClass('showing');
     });
   });
   
