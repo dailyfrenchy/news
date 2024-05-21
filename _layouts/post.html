@@ -24,10 +24,23 @@ layout : default
           {% endif %}
         </div>
 
-        <!--         la photo central -->
+        <!--         la photo central (ouvrable ) -->
         <div class="central mb-5 d-flex justify-content-center ">
         {% if page.image %}
-        <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }}">
+          <div class="imageBlock> 
+            <a class="showImage>
+              <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }}">
+            <div id="mask">
+              <div id="boxes">
+                <div class="inner">
+                  <div id="dialog" class="window"> <a href="#" class="close">Fermer la photo</a>
+                    <div id="popupfoot">
+                      <img src="#" class="image" alt="Loading..."></img> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
         {% endif %}
         </div>
         
