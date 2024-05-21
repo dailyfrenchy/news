@@ -63,12 +63,12 @@
         $('.window .close').click(function(e) {
             //Cancel the link behavior
             e.preventDefault();
-            $('#mask2').removeClass('showing');
+            $('#mask2').removeClass('showing2');
         });
     };
     $(".showImage2").on("click", function() {
         showImage2($(this).text());
-        $('#mask2').addClass('showing');
+        $('#mask2').addClass('showing2');
     });
   });
   
