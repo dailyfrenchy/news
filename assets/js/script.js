@@ -60,7 +60,7 @@
             'src': fullImagePath2
         });
         //if close button is clicked
-        $('.window .close').click(function(e) {
+        $('.window2 .close2').click(function(e) {
             //Cancel the link behavior
             e.preventDefault();
             $('#mask2').removeClass('showing2');
