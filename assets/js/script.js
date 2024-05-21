@@ -24,9 +24,9 @@
             var fullImagePath =
                 fullPath ;
         }
-        if (fullPath == "image2") {
-            var fullImagePath =
-                "/assets/images/post/post-2.jpg"";
+        // if (fullPath == "image2") {
+        //     var fullImagePath =
+        //         "/assets/images/post/post-2.jpg"";
         }
         // if (fullPath == "image3") {
         //     var fullImagePath =
