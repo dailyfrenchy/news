@@ -22,7 +22,7 @@
         var id = '#dialog';
         if (fullPath == "image") {
             var fullImagePath =
-                "/assets/images/post/post-1.jpg";
+                fullPath ;
         }
         if (fullPath == "image2") {
             var fullImagePath =
