@@ -20,10 +20,10 @@
 
     function showImage(fullPath) {
         var id = '#dialog';
-        // if (fullPath == "image1") {
-        //     var fullImagePath =
-        //         "https://shareonline.in/wp-content/uploads/2016/06/nature-wallpaper-gallery-path-of-nature-wallpaper-ouRejx.jpg";
-        // }
+        if (fullPath == "image") {
+            var fullImagePath =
+                "/assets/images/post/post-1.jpg";
+        }
         // if (fullPath == "image2") {
         //     var fullImagePath =
         //         "http://wallpapercave.com/wp/l5FBhgU.jpg";
