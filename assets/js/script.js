@@ -19,7 +19,7 @@
   $(document).ready(function() {
 
     function showImage(fullPath) {
-        // var id = '#dialog';
+        var id = '#dialog';
         // if (fullPath == "image1") {
         //     var fullImagePath =
         //         "https://shareonline.in/wp-content/uploads/2016/06/nature-wallpaper-gallery-path-of-nature-wallpaper-ouRejx.jpg";
