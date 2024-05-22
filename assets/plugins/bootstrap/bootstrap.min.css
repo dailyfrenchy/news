@@ -9,7 +9,7 @@ address,dl,ol,p,pre,ul{margin-bottom:1rem}
 body,caption{text-align:left}
 dd,h1,h2,h3,h4,h5,h6,label{margin-bottom:.5rem}
 pre,textarea{overflow:auto}
-article,aside,figcaption,figure,footer,header,hgroup,legend,main,nav,section{display:block}
+/* article,aside,figcaption,figure,footer,header,hgroup,legend,main,nav,section{display:block} */
 address,legend{line-height:inherit}
 .badge,progress,sub,sup{vertical-align:baseline}
 label,output{display:inline-block}
