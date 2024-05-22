@@ -6,7 +6,7 @@
  */dl,h1,h2,h3,h4,h5,h6,ol,p,pre,ul{margin-top:0}
 
 address,dl,ol,p,pre,ul{margin-bottom:1rem}
-body,caption{text-align:center,justify-content:center}
+body,caption{text-align:center; justify-content:center}
 dd,h1,h2,h3,h4,h5,h6,label{margin-bottom:.5rem}
 pre,textarea{overflow:auto}
 
