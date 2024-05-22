@@ -19,7 +19,7 @@
           {% endif %}
   </div>
   
-  <p>{% assign curlyend = '}' %}{{ post.content | markdownify | strip_html | replace: "{% include JB/setup %", "" | replace: curlyend, "" | truncatewords: 30 }}
+  <p>{% assign curlyend = '}' %}{{ post.excerpt | markdownify | strip_html | replace: "{% include JB/setup %", "" | replace: curlyend, "" | truncatewords: 30 }}
   </p>
   <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-transparent pl-0">lire plus....</a>
 </article>
