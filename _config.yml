@@ -61,3 +61,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+# decoupage content blo
+excerpt_separator: <!-- excerpt-end -->
