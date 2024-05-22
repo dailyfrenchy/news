@@ -14,7 +14,8 @@ tags : ["Osaka"]
 
 <!-- Excerpt Start -->
 Premiere serie de photo sur Osaka, Enjoy !
-<br>
+
+<br> <!--more-->
 
 <!-- Excerpt End -->
 on test une deuxieme partie pour test
