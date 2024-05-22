@@ -11,4 +11,13 @@ description : "This is meta description"
 tags : ["Osaka"]
 
 ---
+
+<!-- Excerpt Start -->
 Premiere serie de photo sur Osaka, Enjoy !
+<br>
+
+on test une deuxieme partie pour test
+<!-- Excerpt End -->
+
+
+
