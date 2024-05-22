@@ -51,7 +51,7 @@ layout : default
           {{ page.content }}
         </div>
 
-        <!--     test 2eme photo  -->
+        <!--   2eme photo  -->
         <div class="central mb-5 d-flex justify-content-center">
         {% if page.image2 %}
           <div class="imageBlock2"> 
@@ -63,6 +63,72 @@ layout : default
                       <div id="dialog2" class="window2"> <a href="#" class="close2">Fermer la photo</a>
                           <div id="popupfoot2">
                             <img src="{{ page.image2 | relative_url }}" class="image2" alt="Loading...">
+                            </img> 
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          {% endif %}
+          </div>
+      </div>
+
+        <!--   3eme photo  -->
+        <div class="central mb-5 d-flex justify-content-center">
+        {% if page.image3 %}
+          <div class="imageBlock3"> 
+            <a class="showImage3">
+              <img src="{{ page.image3 | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }} ">
+                <div id="mask3">
+                  <div id="boxes3">
+                    <div class="inner3">
+                      <div id="dialog3" class="window3"> <a href="#" class="close3">Fermer la photo</a>
+                          <div id="popupfoot3">
+                            <img src="{{ page.image3 | relative_url }}" class="image3" alt="Loading...">
+                            </img> 
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          {% endif %}
+          </div>
+      </div>
+
+        <!--   4eme photo  -->
+        <div class="central mb-5 d-flex justify-content-center">
+        {% if page.image4 %}
+          <div class="imageBlock4"> 
+            <a class="showImage4">
+              <img src="{{ page.image4 | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }} ">
+                <div id="mask4">
+                  <div id="boxes4">
+                    <div class="inner4">
+                      <div id="dialog4" class="window4"> <a href="#" class="close4">Fermer la photo</a>
+                          <div id="popupfoot4">
+                            <img src="{{ page.image4 | relative_url }}" class="image4" alt="Loading...">
+                            </img> 
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          {% endif %}
+          </div>
+      </div>
+
+                <!--   5eme photo  -->
+        <div class="central mb-5 d-flex justify-content-center">
+        {% if page.image5 %}
+          <div class="imageBlock5"> 
+            <a class="showImage5">
+              <img src="{{ page.image5 | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }} ">
+                <div id="mask5">
+                  <div id="boxes5">
+                    <div class="inner5">
+                      <div id="dialog5" class="window5"> <a href="#" class="close5">Fermer la photo</a>
+                          <div id="popupfoot5">
+                            <img src="{{ page.image5 | relative_url }}" class="image5" alt="Loading...">
                             </img> 
                           </div>
                       </div>
