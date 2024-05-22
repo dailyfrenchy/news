@@ -61,5 +61,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-# decoupage content blo
+
+  
+# decoupage content bloc
+excerpt_separator: <!-- excerpt-start -->
+excerpt_separator: "<!--more-->"  #global excerpt separator for the blog posts
 excerpt_separator: <!-- excerpt-end -->
