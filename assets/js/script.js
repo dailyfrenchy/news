@@ -71,6 +71,84 @@
         $('#mask2').addClass('showing2');
     });
   });
+
+   // image partie blog  img 3 ( ouverture popup)
+  $(document).ready(function() {
+
+    function showImage3(fullPath3) {
+        var id = '#dialog3';
+        if (fullPath3 == "image3") {
+            var fullImagePath3 =
+                fullPath3;
+        }
+        $('.image3').attr({
+            'src': fullImagePath3
+        });
+        //if close button is clicked
+        $('.window3 .close3').click(function(e) {
+            //Cancel the link behavior
+            e.preventDefault();
+            $('#mask3').removeClass('showing3');
+        });
+    };
+    $(".showImage3").on("click", function() {
+        showImage3($(this).text());
+        $('#mask3').addClass('showing3');
+    });
+  });
+
+ // image partie blog  img 24( ouverture popup)
+  $(document).ready(function() {
+
+    function showImage4(fullPath4) {
+        var id = '#dialog4';
+        if (fullPath4 == "image4") {
+            var fullImagePath4 =
+                fullPath4;
+        }
+        $('.image4').attr({
+            'src': fullImagePath4
+        });
+        //if close button is clicked
+        $('.window4 .close4').click(function(e) {
+            //Cancel the link behavior
+            e.preventDefault();
+            $('#mask5').removeClass('showing4');
+        });
+    };
+    $(".showImage4").on("click", function() {
+        showImage4($(this).text());
+        $('#mask4').addClass('showing4');
+    });
+  });
+
+ // image partie blog  img 5 ( ouverture popup)
+  $(document).ready(function() {
+
+    function showImage5(fullPath5) {
+        var id = '#dialog5';
+        if (fullPath5 == "image5") {
+            var fullImagePath5 =
+                fullPath5;
+        }
+        $('.image5').attr({
+            'src': fullImagePath5
+        });
+        //if close button is clicked
+        $('.window5 .close5').click(function(e) {
+            //Cancel the link behavior
+            e.preventDefault();
+            $('#mask5').removeClass('showing5');
+        });
+    };
+    $(".showImage5").on("click", function() {
+        showImage5($(this).text());
+        $('#mask5').addClass('showing5');
+    });
+  });
+
+
+
   
   
 })(jQuery);
