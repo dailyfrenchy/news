@@ -23,7 +23,6 @@
   
   // image partie blog  img 1 ( ouverture popup)
   $(document).ready(function() {
-
     function showImage(fullPath) {
         var id = '#dialog';
         if (fullPath == "image") {
@@ -49,7 +48,6 @@
 
  // image partie blog  img 2 ( ouverture popup)
   $(document).ready(function() {
-
     function showImage2(fullPath2) {
         var id = '#dialog2';
         if (fullPath2 == "image2") {
@@ -74,7 +72,6 @@
 
    // image partie blog  img 3 ( ouverture popup)
   $(document).ready(function() {
-
     function showImage3(fullPath3) {
         var id = '#dialog3';
         if (fullPath3 == "image3") {
@@ -97,9 +94,8 @@
     });
   });
 
- // image partie blog  img 24( ouverture popup)
+ // image partie blog  img 4( ouverture popup)
   $(document).ready(function() {
-
     function showImage4(fullPath4) {
         var id = '#dialog4';
         if (fullPath4 == "image4") {
@@ -113,7 +109,7 @@
         $('.window4 .close4').click(function(e) {
             //Cancel the link behavior
             e.preventDefault();
-            $('#mask5').removeClass('showing4');
+            $('#mask4').removeClass('showing4');
         });
     };
     $(".showImage4").on("click", function() {
@@ -124,7 +120,6 @@
 
  // image partie blog  img 5 ( ouverture popup)
   $(document).ready(function() {
-
     function showImage5(fullPath5) {
         var id = '#dialog5';
         if (fullPath5 == "image5") {
