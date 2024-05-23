@@ -14,12 +14,12 @@
           {% for tag in post.tags %}
       <a href="{{ 'tag/' | relative_url }}{{ tag | slugify }}">{{ tag | capitalize }}
       </a>
-    <div class="img"><img src="{{ post.image | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }} "></div>
+    <div class="img"><img src="{{ post.image | relative_url }}" class="img-fluid md-right w-100 mb-4" alt="{{ page.title }} "></div>
           {% endfor %}
           {% endif %}
   </div>
   
   <p>{% assign curlyend = '}' %}{{ post.excerpt | markdownify | strip_html | replace: "{% include JB/setup %", "" | replace: curlyend, "" | truncatewords: 10 }}
   </p>
-  <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-transparent pl-0">lire plus....</a>
+  <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-transparent pl-0">En savoir plus</a>
 </article>
